@@ -1,0 +1,218 @@
+@import url(https://fonts.googleapis.com/css?family=Lobster);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800,700);
+
+.restaurante-logo {
+    width: 500px;
+}
+.carousel .item {
+    height: 75vh !important;
+}
+.carousel-caption{
+    text-align: center;
+    padding-bottom: 150px;
+    text-shadow: 2px 2px #5f5f5f;
+    font-size: 16px;
+}
+.caption-heading{
+    font-size: 40px;
+}
+.carousel-button{
+    background-color: #f8512f;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.logo-background {
+    height:300px;
+    width: 100%;
+}
+.navbar {
+    position: absolute;
+    top:30px;
+    z-index: 30;
+    width:100%;
+}
+.navbar-header {
+    width:100%;
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+    top: 0;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: rgba(0, 0, 0, .8);
+    color: #fff;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+.wood-background{
+    background-image: url('../img/wood-2.jpg');
+    background-size: 85% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.local-background{
+    background-image: url('../img/restaurant-2.jpg');
+    background-size: 85% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.farm-background{
+    background-image: url('../img/farm-2.jpg');
+    background-size: 85% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.our-story-main{
+    height: 75vh;
+    padding-top: 150px;
+    padding-bottom: 250px;
+}
+.our-story-head{
+    font-family: "Lobster", cursive;
+    font-size: 80px;
+    font-weight: 3em;
+    text-shadow: 2px 2px #000000;
+    color: #f8512f;
+}
+.review-section {
+    padding: 0px;
+    height: 75vh;
+}
+.transbox{
+    background-color: #000000;
+    opacity: 0.6;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    width: 1100px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.review-header{
+    margin-bottom: 0px !important;
+    font-family: "Lobster", cursive;
+    font-size: 70px;
+    font-weight: 700;
+    color: #f8512f;
+}
+.review-text{
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 700;
+}
+.review-img{
+    padding-top: 250px;
+    text-align: center;
+    width: 100%;
+    height: 75vh;
+    background: url('../img/food_review.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu-background{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+    height: 75vh;
+    background: url('../img/black_linen.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat:repeat;
+}
+.menu-title{
+    font-family: "Lobster";
+    color: #ffffff;
+    font-size: 80px;
+    font-weight: 700;
+}
+.menu-text{
+    background-color: #ffffff;
+    font-family: "Raleway";
+    color: #000000;
+    width: 325px;
+    /*height: 500px;*/
+}
+.menu-header{
+    color: #f8512f;
+    font-family: "Raleway";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 14px;
+    background-color: transparent;
+    width: 325px;
+    text-align: center;
+    padding: 5px 0px 5px 0px !important;
+}
+.menu-header:hover{
+    color:  #f8512f;
+    width: 325px;
+    text-align: center;
+    background-color: #ffffff;
+}
+.menu-item{
+    font-size: 28px;
+    font-weight:bold;
+}
+.menu-image{
+    padding: 4px;
+    margin-top: 15px;
+    border: 1px solid #b3b3b3;
+    border-radius: 2px;
+}
+.text-year{
+    font-family: 'Playfair Display', serif;
+    z-index:-1;
+    position: absolute;
+    color: #e4e4e4;
+    font-size: 200px;
+    font-weight: 700;
+}
+.contact-header, .contact-text{
+    color: #ffffff;
+    font-family: "Raleway";
+    font-weight: bold;
+}
+.contact-header{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.contact-text{
+    width: 1200px;
+    padding-bottom: 40px;
+}
+.contact-background{
+    height: 75vh;
+    padding-top: 75px;
+    background-color:#f8512f;
+    padding-bottom: 30px;
+}
+.contact-form-data{
+    padding-top: 15px;
+    width: 400px;
+    background-color: #ff6633;
+    color: #ffffff;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+.contact-logo{
+    height: 45px;
+    padding-bottom: 5px;
+}
+.contact-address{
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Raleway";
+}
+.address-header{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: 0 !important;
+}
